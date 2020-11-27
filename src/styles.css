@@ -1,1 +1,51 @@
 /* Add application styles & imports to this file! */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  background: #333;
+  justify-content: center;
+}
+
+header a {
+  color: #FFF;
+  text-decoration: none;
+  padding: 20px 20px;
+  font-size: 20px;
+}
+
+header a:hover {
+  color: #333;
+  background: #FFF;
+}
+
+.box {
+  height: 500px;
+  margin: 20px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #FFF;
+}
+
+.box h1 {
+  font-size: 3.5rem;
+}
+
+.box1 {
+  background: #7d0000;
+}
+
+.box2 {
+  background: #cd3700;
+}
+
+.box3 {
+  background: #cd7f32;
+}
